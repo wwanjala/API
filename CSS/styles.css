@@ -77,7 +77,7 @@ h1 {
 #flag-container {
   height: 252px;
   background-color: #fff;
-  border: 1px solid #333;
+  border: 1px solid rgb(24, 2, 2);
 }
 
 #flag-container img {
