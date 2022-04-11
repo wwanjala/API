@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API</title>
+    <!-- bootstrap 5 css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6d684055b3.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="/CSS/styles.css" />
+  </head>
+
+  <body>
+    <!-- Side-Nav -->
+    <div
+      class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column"
+      id="sidebar"
+    >
+      <ul class="nav flex-column text-white w-100">
+        <li>
+          <a
+            href="index.html"
+            class="nav-link"
+            data-toggle="modal"
+            data-target="#Countries"
+            ><span class="mx-2"
+              ><i class="fa fa-map-marker" aria-hidden="true"></i></span
+            >Search Place</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="paye.html"
+            class="nav-link"
+            data-toggle="modal"
+            data-target="#Countries"
+            ><span class="mx-2"
+              ><i class="fa fa-money" aria-hidden="true"></i></span
+            >PAYE</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="country.html"
+            class="nav-link"
+            data-toggle="modal"
+            data-target="#Countries"
+            ><span class="mx-2"
+              ><i class="fa fa-globe" aria-hidden="true"></i></span
+            >Countries</a
+          >
+        </li>
+      </ul>
+
+      <span href="#" class="nav-link h4 w-100 mb-5">
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-git-alt mx-2"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram-square mx-2"></i></a>
+      </span>
+    </div>
+
+    <!-- Main Wrapper -->
+    <div class="p-1 my-container active-cont">
+      <!-- Top Nav -->
+      <nav class="top-navbar navbar-light bg-dark px-5">
+        <a class="btn border-0" id="menu-btn"><i class="bx bx-menu"> </i></a>
+      </nav>
+      <!--End Top Nav -->
+
+      <!-- page content -->
+      <h3 class="text-dark p-3">PAYE Calculator</h3>
+    </div>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
